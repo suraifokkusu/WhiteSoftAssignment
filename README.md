@@ -9,7 +9,7 @@
 **Реализовано**
 > –  HTTP GET запрос по адресу [API](https://raw.githubusercontent.com/thewhitesoft/student-2022-assignment/main/data.json), считывающий data.json
 
-> – Парсинг локального replacement.json и ~~*__data.json__*~~(заккоментировано)
+> – Парсинг локального replacement.json и ~~*__data.json__*~~ (закомментировано)
 
 ---
 ## Формулировка задания
