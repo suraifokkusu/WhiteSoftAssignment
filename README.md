@@ -7,11 +7,10 @@
 Появится результирующий result.json файл.  
 
 **Реализовано**
-> –  HTTP GET запрос по адресу [API](https://raw.githubusercontent.com/thewhitesoft/student-2022-assignment/main/data.json), считывающий data.json.
+> –  HTTP GET запрос по адресу [API](https://raw.githubusercontent.com/thewhitesoft/student-2022-assignment/main/data.json), считывающий data.json
 
-> – Парсинг локального replacement.json и ~~*__data.json__*~~(заккоментировано).
+> – Парсинг локального replacement.json и ~~*__data.json__*~~(заккоментировано)
 
-> – `source` может быть `null`, в этом случае сообщения изначально не было и его нужно удалить из *data.json*
 ---
 ## Формулировка задания
-Задание размещено на [GitHub](https://github.com/thewhitesoft/student-2022-assignment)
+Задание размещено на [GitHub](https://github.com/thewhitesoft/student-2022-assignment).
