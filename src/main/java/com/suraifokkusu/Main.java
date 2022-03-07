@@ -42,12 +42,17 @@ HTTP CLIENT для GET-запроса data.json
 */
         for (Replacement replacement : replacementList) {
             if (replacement.getSource() == null) {
-                for (int dataIndex = 0; dataIndex < dataList.size(); dataIndex++) //дополнительный счетчик для прогонки data.json
-                {
+                /*
+                Дополнительный счетчик для прогонки data.json
+                */
+                for (int dataIndex = 0; dataIndex < dataList.size(); dataIndex++)                 {
                     if (dataList.get(dataIndex).contains(replacement.getReplacement())) {
                         dataList.remove(dataIndex);
+                        /*
+                        При удалении из списка след элемент встает на место удаленного, потому указатель смещаем на одну позицию влево
+                        */
                         if (dataIndex != 0)
-                            dataIndex -= 1; //при удалении из списка след элемент встает на место удаленного, потому указатель смещаем на одну позицию влево
+                            dataIndex -= 1; 
                     }
                 }
 
@@ -84,7 +89,7 @@ HTTP CLIENT для GET-запроса data.json
         }
 /*
 ----------------------------------------------------------------------------------------
- */
+*/
         parser.parse_resultToJson(dataList);
     }
 }
